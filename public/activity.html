@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>activity</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/cssfile.css" />
+		<link rel="stylesheet" type="text/css" href="css/Activitys.css"/>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/Activitys.js"></script>
+	</head>
+
+	<body>
+		<div id="login">
+				<div class="close" id="dlclose">
+					x
+				</div>
+				<h1 id="topname">欢迎</h1>
+				<h1 id="dlzcs">注册</h1>
+<!--				 <form method="post" action="/login"> -->
+				<input type="text" required="required" placeholder="用户名" name="yhm" class="inputs"></input>
+				<input type="password" required="required" placeholder="密码" name="yhmm" class="inputs"></input>
+				<button class="but" id="btnlogin">登录</button>
+				<!-- </form>-->
+			</div>
+
+			<!--注册页面-->
+			<div id="zclogin">
+				<div class="close" id="zcclose">x</div>
+				<h1 id="zctopname">欢迎加入</h1>
+				<h1 id="zcdlzcs">登录</h1>
+				<form method="post" action="/regist" id="regForm">
+					<input type="text" required="required" placeholder="用户名" id="zcyhm" name="yhm" class="inputs"></input>
+					<br />
+					<div id="yhmts" class="tsdiv">
+						请输入用户名：使用字母开头,由字母、数字、下划线，6~10位；
+					</div>
+					<input type="password" required="required" placeholder="密码" id="zcmm" name="yhmm" class="inputs"></input>
+					<br />
+					<div id="mmts" class="tsdiv">
+						请输入密码：6~10个字符，请区分大小写；
+					</div>
+					<input type="password" required="required" placeholder="确认密码" name="qrmm" class="inputs"></input>
+					<div id="qrts" class="tsdiv">
+						确认密码：请与密码输入一致；
+					</div>
+					<input id="email" type="text" required="required" placeholder="邮箱" name="youxiang" class="inputs"></input>
+					<div id="yxts" class="tsdiv">
+						请输入邮箱，注意大小写
+					</div>
+					<div id="smyz">
+						游戏实名注册(防沉迷)
+					</div>
+					<input type="text" required="required" placeholder="真实姓名" name="zsname" class="inputs"></input>
+					<div id="zsxmts" class="tsdiv">
+						请输入真实姓名
+					</div><input type="text" required="required" placeholder="身份证号" name="sfzh" class="inputs"></input>
+					<div id="sfzhts" class="tsdiv">
+						请输入身份证号
+					</div>
+					<input type="checkbox" name="xieyi" id="xieyi" value="" checked="checked" />我已阅读并同意快牙协议
+					<a href="#">查看协议</a>
+					<button class="sub" type="button" id="btnregist">注册</button>
+				</form>
+			</div>
+		<div id="div_big">
+
+			<div id="div_top">
+				<img id="logo" src="img/logo.png" />
+				<img id="white" src="img/icon_white.png" />
+				<ul id="top_ul01">
+					<a href="/">
+						<li>首页</li>
+					</a>
+					<a href="/help">
+						<li>帮助</li>
+					</a>
+					<a href="/news">
+						<li>咨询</li>
+					</a>
+					<a href="/activity">
+						<li id="dddd">活动</li>
+					</a>
+				</ul>
+				<ul id="top_ul02">
+					<li id="top_ul02_li01">英文</li>
+					<li id="sydl">登录</li>
+				</ul>
+			</div>
+
+			<div id="div_adv">
+				<img src="img/banner-min.jpg" />
+			</div>
+
+			<!--start-->
+			<div id="neirong-box">
+				<div id="nrBox">
+					<ul class="ul1" id="kuai">
+						<li class="kuai">
+							<div class="activity-left">
+								<h1 class="yuefen">12.31</h1>
+								<span class="nian">2016</span>
+
+								<div class="activity-arrow"></div>
+							</div>
+							<div class="activity-right">
+								<dl>
+
+									<dt class="uk-width-2-5"><img src="http://downloadj.dewmobile.net/upload/web/pic/f6ae0d32ec883d61347f54a2261bbb3d-162335.jpg" /></dt>
+									<dd class="uk-width-3-5">
+										<h3 class="zz">2016——你在快牙干了啥</h3><span class="shijian">活动时间：2016.12.31</span>
+										<p class="zy">盘点2016</p>
+										<a href="javascript:;" data-id="39" class="lookAll" data-uk-modal="{target:'#activity'}">查看全文</a>
+									</dd>
+
+								</dl>
+								<div class="uk-clearfix"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--end-->
+			<div id="foot">
+				<ul id="foot_ul01">
+					<li>关于我们</li>
+					<li>用户协议</li>
+					<li>升级日志</li>
+					<li id="foot_ul01_end">联系我们</li>
+				</ul>
+				<span id="foot_span01"><font color="white">邻动网络科技(北京)有限公司</font>&nbsp;&nbsp;地址：北京市海淀区知春路甲48号盈都大厦B座22A&nbsp;&nbsp<font color="white">联系电话：010-58732360&nbsp;&nbsp客服邮箱：kefu@dewmobile.net</font></span>
+				<span id="foot_span02">Copyright @ 2016 kuaiya.cn All Rights Reserved <a>京ICP证140605号 京ICP备12004609号 京公网安备11010802009027号<a></span>
+				<span id="foot_span03">网络文化经营许可证 京网文[2015]2365-456号</span>
+				<img src="img/footer-dp.png" />
+			</div>
+		</div>
+	</body>
+
+</html>

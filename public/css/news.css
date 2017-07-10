@@ -1,0 +1,107 @@
+#main{
+	width:1349px;
+	position: relative;
+/*	z-index: ;*/
+}
+ul, li, ol, li, a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+
+.uk-container{
+	box-sizing: border-box;
+    max-width: 980px;
+    padding: 0 25px;
+    position: relative;
+}
+.news-box{
+	height: 188px;
+}
+.news-box ul li {
+	display: block;
+    padding-left: 30px;
+    margin-top: 50px;
+    position: relative;
+    min-height: 170px;
+}
+
+.news-left{
+	height: 90%;
+    float: left;
+    position: absolute;
+    width: 93px;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-right: 1px #ccc solid;
+    background: url(../img/activity-line.png) no-repeat 10px 10px;
+}
+.news-left h1{
+	display: block;
+    font-size: 40px;
+    font-weight: bold;
+     color: gray;
+}
+.news-left span{
+	line-height: 18px;
+	font-size: 20px;
+    margin-left: 4px;
+    color: #c9c9c9;
+    padding-top: 10px;
+}
+.news-arrow{
+	position: absolute;
+    right: -6px;
+    top: 10px;
+    width: 6px;
+    height: 9px;
+    background: url(../img/activity-arrow.png) no-repeat left top;
+}
+.news-right dl{
+    margin-left: 15%;
+    max-width: 900px;
+}
+dt {
+    font-weight: 700;
+}
+.news-right dl dt h3 {
+    font-size: 22px;
+    color: #444;
+}
+.news-right dl dd{
+	padding-top: 18px;
+}
+.news-right dl dd p{
+	font: 16px/20px "微软雅黑";
+	color: darkgray;
+}
+.news-right dl dd a{
+	    display: block;
+    position: absolute;
+    bottom: 5px;
+    width: 77px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #FF4A19;
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: orange;
+	color: white;
+	text-align: center;
+	font: bold 18px/30px "微软雅黑";
+	margin-right: 20px;
+}
+#clone{
+	display: none;
+}
+

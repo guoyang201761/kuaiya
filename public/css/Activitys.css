@@ -1,0 +1,75 @@
+#nrBox ul, li, ol, li, a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+ #neirong-box{
+ 	width: 92%;
+ 	margin: auto;
+ 	position: relative;
+ 	height: 1400px;
+ }
+#nrBox{
+	width: 90%;
+	height: 900px;
+	position: relative;
+
+	margin: auto;
+	margin-top: -10px;
+}
+.kuai{
+	    padding-left: 130px;
+    margin-top: 50px;
+    position: relative;
+    min-height: 170px
+}
+.activity-left{
+	height: 100%;
+    float: left;
+    position: absolute;
+    margin-left: -130px;
+    padding-right: 30px;
+    border-right: 1px #ccc solid;
+    background: url(../img/activity-line.png) no-repeat 7px 0px;
+}
+.activity-right dt dd{
+	float: left;
+	
+}
+.activity-right dt{
+	float: left;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+.uk-width-3-5{
+	    position: absolute;
+    left: 534px;
+    top: 0px;
+}
+.activity-right dl dd a {
+    display: block;
+    position: absolute;
+    
+    width: 77px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #FF4A19;
+}
+#nrBox img{
+	width: 300px;
+	height: 160px;
+	background-image: url(../img/123.jpg);
+}
+.shijian{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.zy{
+	 line-height: 28px;
+    font-size: 14px;
+}
+   

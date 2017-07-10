@@ -1,0 +1,77 @@
+#ban{
+			width: 100%;
+			background-color: #5878e9;
+			height: 200px;
+		}
+		#lodo{
+			width: 80%;
+			margin: auto;
+		}
+			#bangzhu-body{
+				width: 100%;
+				position: relative;
+				
+			}
+			#bangzhu{text-align: center;
+				width: 80%;
+				margin: auto;
+				    border: #e0e0e0 solid 1px;
+				   margin-top: 60px;
+				   
+			}
+			#bangzhu-body h3{
+				position: absolute;
+				top: -60px;
+				left: 200px;
+			}
+			.imgs1{
+				position: absolute;
+				top: -8px;
+			}
+			#nei{position: relative;
+				width: 80%;
+				margin: auto;
+			background-color: #fafafa;
+			border-color: #E0E0E0;
+				margin-bottom:20px ;
+				border: solid 1px #666;
+			}
+			#lei{position: relative;
+				width: 20%;
+				height: auto;
+				/*float: left;*/
+				
+			
+			}
+			#lei div{
+				width: 100%;
+				height: 120px;
+				float: left;
+				text-align: center;
+				font-size: 18px;
+				font-weight: 800;
+				position: relative;
+			}
+			#lei div a{
+				        text-decoration: none;
+    width: 130px;
+       height: 75px;
+    line-height: 81px;
+    border-bottom: solid 3px beige;
+    position: absolute;
+    left: 35px;
+    top: 9px;
+    
+			}
+			#xx{
+				width: 80%;
+				position: relative;
+				
+				/*float: left;*/
+				
+				overflow:  hidden;
+			}
+			
+#xx dl{
+	margin-top: 44px;
+}

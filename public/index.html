@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>index</title>
+		<link rel="stylesheet" type="text/css" href="css/cssfile.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/firsthead.css"/>-->
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		</style>
+	</head>
+
+	<body>
+		<!--start-->
+		<div id="login">
+				<div class="close" id="dlclose">
+					x
+				</div>
+				<h1 id="topname">欢迎</h1>
+				<h1 id="dlzcs">注册</h1>
+<!--				 <form method="post" action="/login"> -->
+				<input type="text" required="required" placeholder="用户名" name="yhm" class="inputs"></input>
+				<input type="password" required="required" placeholder="密码" name="yhmm" class="inputs"></input>
+				<button class="but" id="btnlogin">登录</button>
+				<!-- </form>-->
+			</div>
+
+			<!--注册页面-->
+			<div id="zclogin">
+				<div class="close" id="zcclose">x</div>
+				<h1 id="zctopname">欢迎加入</h1>
+				<h1 id="zcdlzcs">登录</h1>
+				<form method="post" action="/regist" id="regForm">
+					<input type="text" required="required" placeholder="用户名" id="zcyhm" name="yhm" class="inputs"></input>
+					<br />
+					<div id="yhmts" class="tsdiv">
+						请输入用户名：使用字母开头,由字母、数字、下划线，6~10位；
+					</div>
+					<input type="password" required="required" placeholder="密码" id="zcmm" name="yhmm" class="inputs"></input>
+					<br />
+					<div id="mmts" class="tsdiv">
+						请输入密码：6~10个字符，请区分大小写；
+					</div>
+					<input type="password" required="required" placeholder="确认密码" name="qrmm" class="inputs"></input>
+					<div id="qrts" class="tsdiv">
+						确认密码：请与密码输入一致；
+					</div>
+					<input id="email" type="text" required="required" placeholder="邮箱" name="youxiang" class="inputs"></input>
+					<div id="yxts" class="tsdiv">
+						请输入邮箱，注意大小写
+					</div>
+					<div id="smyz">
+						游戏实名注册(防沉迷)
+					</div>
+					<input type="text" required="required" placeholder="真实姓名" name="zsname" class="inputs"></input>
+					<div id="zsxmts" class="tsdiv">
+						请输入真实姓名
+					</div><input type="text" required="required" placeholder="身份证号" name="sfzh" class="inputs"></input>
+					<div id="sfzhts" class="tsdiv">
+						请输入身份证号
+					</div>
+					<input type="checkbox" name="xieyi" id="xieyi" value="" checked="checked" />我已阅读并同意快牙协议
+					<a href="#">查看协议</a>
+					<button class="sub" type="button" id="btnregist">注册</button>
+				</form>
+			</div>
+		<!--end-->
+		<div id="menu_right">
+				<div id="menu01"></div>
+				<div id="menu02">
+					<img id="imgCode02" src="img/erCode-qq.png"/>
+				</div>
+				<div id="menu03">
+					<img id="imgCode03" src="img/erCode-weixin.png"/>
+				</div>
+				<div id="menu04">
+					<img id="imgCode04" src="img/erCode.png"/>
+				</div>
+			</div>
+		<div id="div_big">
+
+			<div id="div_top">
+				<img id="logo" src="img/logo.png" />
+				<img id="white" src="img/icon_white.png" />
+				<ul id="top_ul01">
+					<a href="/"><li id="dddd">首页</li></a>
+					<a href="/help"><li>帮助</li></a>
+					<a href="/news"><li>咨询</li></a>
+					<a href="/activity"><li>活动</li></a>
+				</ul>
+				<ul id="top_ul02">
+					<li id="top_ul02_li01">英文</li>
+					<li id="sydl">登录</li>
+				</ul>
+			</div>
+			<div id="div_adv">
+				<img src="img/banner-min.jpg" />
+				<img id="img_bofang" src="img/banner-btn.png" />
+				<img id="img_xiazai" src="img/home-banner-btn.png" />
+
+			</div>
+			<div id="div_pingtai">
+				<h1>跨平<span>台</span>连接</h1>
+				<p>超多平台覆盖任你选</p>
+				<ul id="pingtai_ul">
+					<li>
+						<div  class="tiao"><img class="pingtai" src="img/big-icon-android.png" /></div>
+						<dt class="pingtai_name">Android</dt>
+						<dd><img class="pingtai_mini" src="img/icon-android.png" /></dd>
+						<dd>
+							<a id="pingtai01">下载</a>
+						</dd>
+					</li>
+					<li>
+						<div class="kuan"><img class="pingtai" src="img/big-icon-ios.png" /></div>
+						<dt class="pingtai_name">IOS</dt>
+						<dd><img class="pingtai_mini" src="img/icon-ios.png" /></dd>
+						<dd>
+							<a id="pingtai02">Apple Store</a>
+						</dd>
+					</li>
+					<li>
+						<div class="tiao"><img class="pingtai" src="img/big-icon-pc.png" /></div>
+						<dt class="pingtai_name">Windows Pc</dt>
+						<dd><img class="pingtai_mini" src="img/icon-pc.png" /></dd>
+						<dd>
+							<a id="pingtai03">下载</a>
+						</dd>
+					</li>
+					<li>
+						<div class="kuan"><img class="pingtai" src="img/big-icon-ios-y.png" /></div>
+						<dt class="pingtai_name">网传版</dt>
+						<dd><img class="pingtai_mini" src="img/icon-ios-y.png" /></dd>
+						<dd>
+							<a id="pingtai04">下载</a>
+						</dd>
+					</li>
+					<li>
+						<div class="tiao"><img class="pingtai" src="img/big-icon-w-phone.png" /></div>
+						<dt class="pingtai_name">Windows Phone</dt>
+						<dd><img class="pingtai_mini" src="img/icon-w-phone.png" /></dd>
+						<dd>
+							<a id="pingtai05">Win Store</a>
+						</dd>
+					</li>
+					<li>
+						<div class="tiao"><img class="pingtai" src="img/big-icon-mac.png" /></div>
+						<dt class="pingtai_name">Mac OSX</dt>
+						<dd><img class="pingtai_mini" src="img/icon-mac.png" /></dd>
+						<dd>
+							<a id="pingtai06">Mac Store</a>
+						</dd>
+					</li>
+
+				</ul>
+				<img id="jiantou" src="img/arrow.png" />
+			</div>
+			<div id="div_function">
+				<img id="jiantou02" src="img/arrow.png" />
+				<p id="gang01"></p>
+				<p id="gang02"></p>
+				<p id="gang03"></p>
+				<div id="contain">
+
+					<div id="div_function01">
+						<p id="function01">0流量，急速</p>
+						<p class="function_a">真正免流量</p>
+						<p class="function_a">急速，百M下载仅需几秒</p>
+					</div>
+					<div id="div_function01">
+						<p id="function02">多人，大文件传输</p>
+						<p class="function_a">多人传输，一次搞定</p>
+						<p class="function_a">各种文件随心传</p>
+					</div>
+					<div id="div_function01">
+						<p id="function03">互动游戏</p>
+						<p class="function_a">快来与我一战</p>
+						<p class="function_a"></p>
+					</div>
+					<div id="function01_tu">
+						<div id="liuliangdiv">
+							<img style="position: absolute;z-index: 20;left: 45px;top: 23px;"  src="img/animate-pic.png"/>
+							<div id="huiR"></div>
+							<div id="huiL"></div>
+							<div id="lanR"></div>
+							<div id="lanL"></div>
+							
+						</div>
+						
+					</div>
+					<div id="function02_tu">
+						<div id="sanjiao01"></div>
+						<div id="sanjiao02"></div>
+						<div id="sanjiao03"></div>
+						<img id="sanjiaotu" src="img/big-file.png"/>
+					</div>
+					<div id="function03_tu">
+						<img src="img/football_mobile.png"/>
+						<img id="football" src="img/football.png"/>
+					</div>
+				</div>
+			</div>
+			<div id="hudong">
+				<h1>互动<span>随</span>时随地</h1>
+				<p>传内容/发消息 远程继续</p>
+				<img id="distance" src="img/distance-bg.png"/>
+				<a class="hudong_a01">海内存知己</a>
+				<a class="hudong_a02">天涯若比邻</a>
+				<img id="double_arrow" src="img/more-arrow.png"/>
+				<img id="jiantou03" src="img/arrow.png" />
+			</div>
+			<div id="surprise">
+				<h1>总有新奇在身边</h1>
+				<p>用快牙,快乐根本停不下来</p>
+				<img id="sur01"  src="img/surprise-1.png"/>
+				<audio  autoplay="autoplay" class="mus1"></audio>
+				<img id="sur02" src="img/surprise-2.png"/>
+				<audio  autoplay="autoplay" class="mus2"></audio>
+				<img id="sur03" src="img/surprise-3.png"/>
+				<audio  autoplay="autoplay" class="mus3"></audio>
+				<img id="sur04" src="img/surprise-4.png"/>
+				<audio  autoplay="autoplay" class="mus4"></audio>
+				<img id="sur05" src="img/surprise-5.png"/>
+				<audio  autoplay="autoplay" class="mus5"></audio>
+			</div>
+			<div id="foot">
+				<ul id="foot_ul01">
+					<li>关于我们</li>
+					<li>用户协议</li>
+					<li>升级日志</li>
+					<li id="foot_ul01_end">联系我们</li>
+				</ul>
+				<span id="foot_span01"><font color="white">邻动网络科技(北京)有限公司</font>&nbsp;&nbsp;地址：北京市海淀区知春路甲48号盈都大厦B座22A&nbsp;&nbsp<font color="white">联系电话：010-58732360&nbsp;&nbsp客服邮箱：kefu@dewmobile.net</font></span>
+				<span id="foot_span02">Copyright @ 2016 kuaiya.cn All Rights Reserved <a>京ICP证140605号 京ICP备12004609号 京公网安备11010802009027号<a></span>
+				<span id="foot_span03">网络文化经营许可证 京网文[2015]2365-456号</span>
+				<img src="img/footer-dp.png"/>
+			</div>
+			
+		</div>
+	</body>
+
+</html>
